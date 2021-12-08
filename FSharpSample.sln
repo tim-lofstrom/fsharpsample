@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CustomLibrary", "CustomLibrary\CustomLibrary.fsproj", "{ACE5BBFA-BA99-4CFE-AF11-D069FAD0A71B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE5BBFA-BA99-4CFE-AF11-D069FAD0A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE5BBFA-BA99-4CFE-AF11-D069FAD0A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE5BBFA-BA99-4CFE-AF11-D069FAD0A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE5BBFA-BA99-4CFE-AF11-D069FAD0A71B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
