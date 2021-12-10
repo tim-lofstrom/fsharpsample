@@ -1,3 +1,8 @@
-﻿printfn "Hello from F#"
+﻿open CustomLibrary
 
-CustomLibrary.Say.hello("Tim")
+[<EntryPoint>]
+let main argv =
+    Say.hello("Tim")
+    printfn "%A" Say.inSquareTester
+    printfn "%s" <| Say.convertToJson "Hello"
+    0

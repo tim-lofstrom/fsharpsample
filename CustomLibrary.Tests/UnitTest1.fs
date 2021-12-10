@@ -10,3 +10,10 @@ let Setup () =
 let Test1 () =
     CustomLibrary.Say.hello("Tim")
     Assert.Pass()
+
+
+
+[<Test>]
+let Test2 () =
+    CustomLibrary.Say.hello("Tim")
+    Assert.Pass()
